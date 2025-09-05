@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # URL API LLaMA.
 # Ganti '<nama_service_api_anda>' dengan nama layanan API Anda di Sevalla.com
-LLAMA_API_URL = "http://ai-9y8cx.sevalla.app:8080/generate"
+LLAMA_API_URL = "http://ai-9y8cx:8080/generate"
 
 # Token Bot Telegram dari variabel lingkungan
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
