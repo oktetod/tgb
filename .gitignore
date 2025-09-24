@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+*.pth
+*.pt
+*.bin
+*.onnx
+*.safetensors
+
+# Saturn Cloud
+.saturn/
+
+# Models - Jangan upload model ke Git
+models/
